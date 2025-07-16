@@ -1,0 +1,565 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>唐璟玥的简历</title>
+  <!-- Stylesheets -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <!-- Responsive -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
+  <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+  <style>
+    .school {
+        margin-bottom: 40px; /* 或根据需要设为更大值 */
+    }
+</style>
+</head>
+<body>
+
+  <div class="page-wrapper default-version">
+    <!-- Preloader -->
+    <div class="preloader"></div>
+
+    <div class="page-background">
+      <div class="image-1"><img src="images/icons/shape/icon-1.png" alt=""></div>
+      <div class="image-7"><img src="images/icons/shape/icon-7.png" alt=""></div>
+      <canvas id="canvas"></canvas>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu">
+      <div class="container">
+        <!--Nav Outer-->
+        <div class="nav-outer clearfix">
+          <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+          <!-- Main Menu -->
+          <nav class="main-menu">
+            <div class="navbar-header">
+              <!-- Toggle Button -->
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+
+            <div class="navbar-collapse collapse scroll-nav clearfix">
+              <ul class="navigation clearfix">
+                <li class="current"><a href="#home">主页</a></li>
+                <li><a href="#about">个人信息</a></li>
+                <li><a href="#tools">擅长技术</a></li>
+                <!-- <li><a href="#resume">工作经历</a></li> -->
+                <li><a href="#services">实践经历</a></li>
+                <li><a href="#work">开源项目</a></li>
+                <li><a href="#honor">荣誉证书</a></li>
+                <li><a href="#blog">博客文章</a></li>
+              </ul>
+            </div>
+          </nav>
+          <!-- Main Menu End-->
+        </div>
+        <!--Nav Outer End-->
+      </div>
+    </div>
+
+    <div class="card-outer">
+      <div class="scroll-box">
+        <div class="container" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
+          <div class="card-wrapper">
+            <div class="author-info" style="background:url(images/background/3.jpg) no-repeat top center">
+              <div class="image"><img src="picture/me.jpg" alt=""></div>
+              <div class="author">
+                <h3>唐璟玥</h3>
+                <div class="designation">
+                  你好，我是
+                  <div class="typing-title">
+                    <p>一名<strong>硕士应届毕业生。</strong></p>
+                    <p>一名<strong>阅读爱好者。</strong></p>
+                  </div>
+                  <span class="typed-title"></span>
+                </div>
+              </div>
+              <div class="link-btn">
+                <a href="picture/唐璟玥-个人简历.pdf" download class="theme-btn btn-style-one">下载简历</a>
+              </div>
+              <ul class="social-icon-two">
+                <li><a href="https://github.com/tangxiaoyue107"><span class="fa fa-github"></span></a></li>
+                <li><a href="https://blog.csdn.net/weixin_45860674"><span class="fa fa-book"></span></a></li>
+                <li><a href="mailto:tangjingyue107@163.com"><span class="fa fa-envelope-o"></span></a></li>
+              </ul>
+            </div>
+            <div class="card-inner-box">
+              <header class="header wow fadeInLeft" data-wow-duration="1.5s">
+                <ul class="main-menu">
+                  <li class="active home"><a class="logo" href="#home"><img src="images/logo.png" alt=""></a></li>
+                  <li><a href="#about"><i class="flaticon-social"></i>个人信息</a></li>
+                  <li><a href="#tools"><i class="flaticon-tools"></i>擅长技术</a></li>
+                  <!-- <li><a href="#resume"><i class="flaticon-curriculum"></i>工作经历</a></li> -->
+                  <li><a href="#services"><i class="flaticon-layers-1"></i>实践经历</a></li>
+                  <li><a href="#work"><i class="fa fa-github"></i>开源项目</a></li>
+                  <li><a href="#honor"><i class="iconfont icon-rongyu"></i>荣誉证书</a></li>
+                  <li><a href="#blog"><i class="flaticon-blog"></i>博客文章</a></li>
+                </ul>
+              </header>
+
+              <!-- card item -->
+              <div class="card-home card-item active" id="home" style="background-image:url(images/background/1.jpg)">
+
+                <div class="card-inner wow fadeInUp" data-wow-duration="2s">
+                  <div class="image"><img src="picture/me.jpg" alt=""></div>
+                  <div class="author">
+                    <h3>唐璟玥</h3>
+                    <div class="designation">
+                      你好，我是
+                      <div class="typing-title">
+                    <p>一名<strong>硕士应届毕业生。</strong></p>
+                    <p>一名<strong>阅读爱好者。</strong></p>
+                      </div>
+                      <span class="typed-title"></span>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <p>硕士科研方向为时序预测，专注于不规则时序数据的高效对齐与建模。熟悉Python、PyTorch，具备一定模型设计与实验调优能力。本科系统学习前端开发，掌握HTML、CSS、JavaScript、Vue等技术，独立完成多个页面开发，具备良好工程实现与交互设计经验。
+                    逻辑思维清晰，注重代码规范与效率，具备较强的自我驱动能力。热爱阅读，持续学习，关注技术与科研的结合实践。
+                    </p>
+                  </div>
+                  <div class="link-btn">
+                    <a href="https://blog.csdn.net/weixin_45860674" class="theme-btn btn-style-one">CSDN</a>
+                    <a href="https://github.com/tangxiaoyue107" class="theme-btn btn-style-two">github</a>
+                  </div>
+                </div>
+
+              </div>
+              <!-- end item -->
+
+              <!-- card item -->
+              <div class="card-about card-item" id="about" >
+                <div class="card-inner">
+                  <h4 class="title">个人信息</h4>
+                  <div class="info-list col-md-12">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <ul class="list-style-one">
+                          <li><strong>姓名:</strong> 唐璟玥</li>
+                          <li><strong>微信:</strong> 15879179865</li>
+                          <li><strong>地址:</strong> 广东深圳</li>
+                          <li><strong>政治面貌：</strong>中共预备党员</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-6">
+                        <ul class="list-style-one">
+                          <li><strong>邮箱:</strong> <a href="mailto:tangjingyue107@163.com">tangjingyue107@163.com</a></li>
+                          <li><strong>CSDN:</strong> <a target='black'
+                              href="https://blog.csdn.net/weixin_45860674">tangxiaoyue107</a>
+                          </li>
+                          <li><strong>github:</strong> <a target='black'
+                              href="https://github.com/tangxiaoyue107">tangxiaoyue107</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="education  col-md-12" style="font-family: Arial, sans-serif; font-size: 15px; line-height: 1.6; color: #5a5757;">
+                    <h4 class="title" >教育背景</h4>
+                    <div style="margin-bottom: 25px;">
+                      <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                        <strong style="font-size: 16px;">深圳大学 | 硕士</strong>
+                        <span style="font-size: 14px; color: #555;">2023年09月 - 至今</span>
+                      </div>
+                      <div style="display: flex; flex-wrap: wrap; margin-top: 4px;">
+                        <div style="margin-right: 30px;"><span style="font-weight: bold;">专业：</span>软件工程（计算机与软件学院）</div>
+                        <div style="margin-right: 30px;"><span style="font-weight: bold;">GPA：</span>3.42 / 4.0</div>
+                        <div><span style="font-weight: bold;">其他：</span>团支书 | 深度学习时间序列预测 | 志愿服务85h</div>
+                      </div>
+                    </div>
+
+                    <div>
+                      <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                        <strong style="font-size: 16px;">江西师范大学 | 本科</strong>
+                        <span style="font-size: 14px; color: #555;">2019年09月 - 2023年06月</span>
+                      </div>
+                      <div style="display: flex; flex-wrap: wrap; margin-top: 4px;">
+                        <div style="margin-right: 30px;"><span style="font-weight: bold;">专业：</span>数据科学与大数据技术（计算机信息工程学院）</div>
+                        <div style="margin-right: 30px;"><span style="font-weight: bold;">GPA：</span>4.0 / 5.0</div>
+                        <div><span style="font-weight: bold;">其他：</span>第二专业金融学 | 英语四级、六级、计算机二级（MS Office）通过</div>
+                      </div>
+                    </div>
+                </div>
+
+
+                </div>
+              </div>
+              <!-- end item -->
+              <!-- card item -->
+              <div class="card-about card-item" id="tools" >
+                <div class="card-inner">
+                  <h4 class="title">擅长技术</h4>
+                  <div class="col-md-12">
+                    <div></div>
+                    <div class="row">
+                      <!-- About Block -->
+                      <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                        <div class="inner-box">
+                          <div class="graph-outer">
+                            <input type="text" class="dial" data-fgColor="#9147ff" data-bgColor="#f5f5f5"
+                              data-width="90" data-height="90" data-linecap="normal" value="90">
+                            <div class="inner-text count-box"><span class="count-text" data-stop="90"
+                                data-speed="2000"></span>%</div>
+                          </div>
+                          <h3>前端</h3>
+                        </div>
+                      </div>
+                      <!-- About Block -->
+                      <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                        <div class="inner-box">
+                          <div class="graph-outer">
+                            <input type="text" class="dial" data-fgColor="#ff5e7e" data-bgColor="#f5f5f5"
+                              data-width="90" data-height="90" data-linecap="normal" value="80">
+                            <div class="inner-text count-box"><span class="count-text" data-stop="80"
+                                data-speed="2000"></span>%</div>
+                          </div>
+                          <h3>深度学习</h3>
+                        </div>
+                      </div>
+
+                      <!-- About Block -->
+                      <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                        <div class="inner-box">
+                          <div class="graph-outer">
+                            <input type="text" class="dial" data-fgColor="#ffc713" data-bgColor="#f5f5f5"
+                              data-width="90" data-height="90" data-linecap="normal" value="50">
+                            <div class="inner-text count-box"><span class="count-text" data-stop="50"
+                                data-speed="2000"></span>%</div>
+                          </div>
+                          <h3>大模型部署/微调</h3>
+                        </div>
+                      </div>
+                      <!-- About Block -->
+                      <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                        <div class="inner-box">
+                          <div class="graph-outer">
+                            <input type="text" class="dial" data-fgColor="#51dbc3" data-bgColor="#f5f5f5"
+                              data-width="90" data-height="90" data-linecap="normal" value="60">
+                            <div class="inner-text count-box"><span class="count-text" data-stop="60"
+                                data-speed="2000"></span>%</div>
+                          </div>
+                          <h3>运维</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="skill-info">
+                          <h4 class="sub-title">前端:</h4>
+                        <div class="labels">
+                          <span class="label label-info">Html5</span>
+                          <span class="label label-info">Css</span>
+                          <span class="label label-info">Vue</span>
+                          <span class="label label-info">Canvas</span>
+                          <span class="label label-info">Jquery</span>
+                          <span class="label label-info">Javascript</span>
+                          <span class="label label-info">Sass</span>
+                        </div>
+                        <h4 class="sub-title">构建/工具:</h4>
+                        <div class="labels">
+                          <span class="label label-info">Webpack</span>
+                          <span class="label label-info">Gulp</span>
+                          <span class="label label-info">Git</span>
+                        </div>
+                        <h4 class="sub-title">服务端:</h4>
+                        <div class="labels">
+                          <span class="label label-info">Php</span>
+                          <span class="label label-info">Mysql</span>
+                          <span class="label label-info">NodeJS</span>
+                          <span class="label label-info">Koa2</span>
+                        </div>
+                        <h4 class="sub-title">产品设计:</h4>
+                        <div class="labels">
+                            <span class="label label-info">Axure</span>
+                            <span class="label label-info">Photoshop</span>
+                            <span class="label label-info">Illustrator</span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+              <!-- end item -->
+
+              <!-- card item -->
+              <div class="card-resume card-item" id="resume" >
+                <div class="card-inner">
+                  <h4 class="title">工作经历</h4>
+                  <!--Column-->
+                  <div class="timeline-column col-md-12">
+                    <div class="row clearfix">
+                      <div class="inner">
+                        <!--Timeline Block-->
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>前端工程师</h4>
+                            <div class="date"><span>2015.07-至今</span> /上海烈日科技有限公司
+                            </div>
+                            <div class="text">
+                              主攻前端开发，负责前端网站的基础技术框架搭建、项目开发、环境部署，以及项目发布。
+                              项目包括公司PC、移动端网站、管理后台网站，微信开发等的前端开发。
+                              带领前端团队高效完成业务模块开发，制定前端团队开发的流程。
+                              参与项目前期讨论，经常提出修改意见，让项目开发更加合理化，提高整个团队的交付效率和质量。
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>DFRobot英文商城-php研发</h4>
+                            <div class="date"><span>2015.03-2015.06</span> /上海智位机器人股份有限公司
+                            </div>
+                            <div class="text">
+                              Php+html结合ajax开发Opencart插件包括：开发购物车页面商品推荐，限时打折，首页显示模版插件。
+                              利用缓存技术，优化数据库查询，提高购物车页面的速度。
+                            </div>
+                          </div>
+                        </div>
+
+                        <!--Timeline Block-->
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>慕课网-PHP开发(实习)</h4>
+                            <div class="date"><span>2014.06-2014.09(大三)</span> / 北京奥鹏文化传媒有限公司
+                            </div>
+                            <div class="text">
+                              主攻PHP后台开发，操作数据库，统计各类数据，编写shell数据脚步，优化登录页面速度等。
+                              后台数据分析包括各省份用户分布情况，统计整合用户切换视频分辨率情况。
+                              编写shell统计脚本，定时运行任务，统计每天不同播放器类型使用的人数、信息等。
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <!-- end item -->
+              <!-- card item -->
+              <div class="card-resume card-item" id="services" >
+                <div class="card-inner">
+                  <h4 class="title">实践经历</h4>
+                  <!--Column-->
+                  <div class="timeline-column  col-md-12">
+                    <div class="row clearfix">
+                      <div class="inner">
+                        <!--Timeline Block-->
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>论文研究｜基于Transformer的不规则时序对齐与预测建模（第一作者）</h4>
+                            <div class="date"> 论文描述：针对不规则时序数据采样不一致、变量依赖关系难以建模等核心难题，提出高效对齐策略与轻量级建模方法，提升预测精度与计算效率的平衡性 </div>
+                            <div class="text">
+                                <div>技术栈：python、transformer、pytorch</div> 
+                              <ul>
+                                <li>研究难点：针对现实中常见的不规则时序（如医疗、生物传感、交通等），聚焦其采样不一致、跨变量异步性强等建模难题。</li>
+                                <li>核心设计：设计并行对齐算法，替代传统循环对齐策略，显著降低显存消耗与计算冗余，实现不规则时序在 GPU 上的批量加速处理。提出多尺度融合与双层注意力机制，从时间维与变量维建模异步依赖关系，提升模型对非均匀观测点的泛化建模能力。</li>
+                                <li>实验结论：方法在多个真实不规则时序数据集上取得优越性能，验证方法在现实环境下的适应性与可迁移性。</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>项目经历｜深投控大模型驱动的自动化信贷审批系统开发（项目组成员）</h4>
+                            <div class="date"> 项目背景：本项目旨在探索大模型在金融信贷审批场景中的可行性与实用性，提升审批流程的自动化与智能化水平，最终实现对历史信贷数据的理解与复用，辅助生成高质量的初审建议。</div>
+                            <div class="text">
+                              <div> 技术栈：Yi-34B、BERTopic、Transformer、Prompt Engineering</div>
+                              <ul>
+                                <li>参与信贷记录语义预处理流程设计，包括统一字段标准、结构化专家结论与数据标签，解决数据来源多样性带来的结构不一致问题。</li>
+                                <li>基于BERTopic进行主题建模与风险要点提取，为后续大模型微调提供领域先验知识支撑。</li>
+                                <li>结合历史审批意见与专家判断，设计Prompt模板，引导Yi-34B识别关键信息并生成初步审批结论。同时开发可视化模块用于展示模型推理链条与支持性依据。</li>
+                                <li>对大模型在真实业务流程中如何落地、与传统规则系统协同有了系统性的理解。积累了跨部门协作与需求对接的实际经验。</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4> 多个官网项目 </h4>
+                            <div class="text">
+                            <div>技术栈:php+TweenMax+jquery+css+animation</div>
+                              <ul>
+                                <li><a href="http://www.iplus-sh.com/">IPLUS官网</a>：使用TweenMax动画完成复杂动画需求</li>
+                                <li>碧云文体发展中心:官方新闻发布系统全站开发，负责前端以及后台PHP二次开发PHPCMS新闻发布系统。</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <!-- end item -->
+              <!-- card item -->
+              <div class="card-projects card-item" id="work" >
+                <div class="card-inner">
+                  <h4 class="title">开源项目</h4>
+                  <div class="row">
+                    <div class="services-block col-md-12">
+                      <div class="inner-box">
+                        <div class="icon-box"><span class="icon flaticon-pen-tool"></span></div>
+                        <h4><a href="https://github.com/sunniejs/sol-weapp">Sol Weapp <img
+                              src="https://img.shields.io/github/stars/sunniejs/sol-weapp.svg?style=social" /></a>
+                        </h4>
+                        <div class="text">微信小程序,商城营销组件库。红包雨、大转盘、九宫格翻牌等营销组件，导航栏、筛选页、高度业务化组件。
+                        </div>
+                      </div>
+                    </div>
+                    <div class="services-block col-md-12">
+                      <div class="inner-box">
+                        <div class="icon-box"><span class="icon flaticon-folder"></span></div>
+                        <h4><a href="https://github.com/sunniejs/vue_canvas_poster">Vue Canvas Poster <img
+                              src="https://img.shields.io/github/stars/sunniejs/vue_canvas_poster.svg?style=social" /></a>
+                        </h4>
+                        <div class="text">一个通过 css 属性画 canvas 图片的轻量级的 vue 组件 (A lightweight vue components use canvas
+                          draw image by css properties.)</div>
+                      </div>
+                    </div>
+                    <div class="services-block col-md-12">
+                      <div class="inner-box">
+                        <div class="icon-box"><span class="icon flaticon-computer"></span></div>
+                        <h4><a href="https://github.com/sunniejs/vue-wechat-auth">Vue Wechat Auth <img
+                              src="https://img.shields.io/github/stars/sunniejs/vue-wechat-auth.svg?style=social" /></a>
+                        </h4>
+                        <div class="text">vue微信网页授权解决方案</div>
+                      </div>
+                    </div>
+
+                    <div class="services-block col-md-12">
+                      <div class="inner-box">
+                        <div class="icon-box"><span class="icon flaticon-layers-1"></span></div>
+                        <h4><a href="https://github.com/sunniejs/weapp-gulp">Weapp Gulp <img
+                              src="https://img.shields.io/github/stars/sunniejs/weapp-gulp.svg?style=social" /></a>
+                        </h4>
+                        <div class="text">基于 gulp4.0 实现七牛云自动上传+图片压缩+scss+封装 wx.request+实时编译+多环境配置，脚手架开发小程序</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <!-- end item -->
+              <!-- card item -->
+              <div class="card-honor card-item" id="honor" >
+                <div class="card-inner">
+                  <h4 class="title">证书</h4>
+                  <div class="col-md-12">
+                    <ul class="list-style-two">
+                      <li><span class="iconfont icon-rongyu"></span>大学英语四级、六级 <span class="level">通过</span></li>
+                      <li><span class="iconfont icon-rongyu"></span>全国计算机等级考试二级证书 <span class="level">合格</span></li>
+                      <!-- <li><span class="iconfont icon-rongyu"></span>深圳大学2023年度共青团工作积极分子 <span class="level"></span></li> -->
+                    </ul>
+                  </div>
+                  <h4 class="title">荣誉</h4>
+                  <div class="col-md-12">
+                    <ul class="list-style-two">
+                      <li><span class="iconfont icon-rongyu"></span>连续两年获得研究生学业奖学金 <span class="level">校级</span></li>
+                      <li><span class="iconfont icon-rongyu"></span>连续四年获得本科校综合素质奖学金，本科校级优秀毕业生 <span class="level">校级</span></li>
+                      <li><span class="iconfont icon-rongyu"></span>第十三届 蓝桥杯全国软件和信息技术专业人才大赛 省三等奖 <span class="level">省级</span></li>
+                      <li><span class="iconfont icon-rongyu"></span>第十五届 泛珠三角+大学生计算机作品赛全国总决赛 本科组 二等奖 <span class="level">国家级</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- end item -->
+              <!-- card item -->
+              <div class="card-blog card-item" id="blog" >
+                <div class="card-inner">
+                  <h4 class="title">优秀博文</h4>
+                  <div class="news-block">
+                    <div class="inner-box">
+                      <div class="image"><img src="images/resource/blog-1.jpg" alt="">
+                        <div class="overlay"><a target="blank" class="link-btn"
+                            href="https://segmentfault.com/a/1190000019488056"><i class="fa fa-link"></i></a>
+                        </div>
+                      </div>
+                      <div class="lower-content">
+                        <h4><a target="blank" href="https://segmentfault.com/a/1190000019488056">vue微信网页授权最终解决方案</a>
+                        </h4>
+                        <div class="tags">微信开发</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="news-block">
+                    <div class="inner-box">
+                      <div class="image"><img src="images/resource/blog-2.jpg" alt="">
+                        <div class="overlay"><a target="blank" class="link-btn"
+                            href="https://juejin.im/post/5d0af5d2f265da1b614ffd72"><i class="fa fa-link"></i></a>
+                        </div>
+                      </div>
+                      <div class="lower-content">
+                        <h4><a target="blank" href="https://juejin.im/post/5d0af5d2f265da1b614ffd72">electron
+                            vue桌面应用入门实例</a></h4>
+                        <div class="tags">electron开发</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="news-block">
+                    <div class="inner-box">
+                      <div class="image"><img src="images/resource/blog-3.jpg" alt="">
+                        <div class="overlay"><a target="blank" class="link-btn"
+                            href="https://juejin.im/post/5cfefc73f265da1bba58f9f7"><i class="fa fa-link"></i></a>
+                        </div>
+                      </div>
+                      <div class="lower-content">
+                        <h4><a target="blank" href="https://juejin.im/post/5cfefc73f265da1bba58f9f7">vuecli3 vant rem
+                            移动端框架方案</a></h4>
+                        <div class="tags">vue开发</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- end item -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!--End pagewrapper-->
+
+
+  <script src="js/jquery.js"></script>
+
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="js/owl.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/appear.js"></script>
+  <script src="js/jquery.fancybox.js"></script>
+  <script src="js/element-in-view.js"></script>
+  <script src="js/knob.js"></script>
+  <script src="js/validate.js"></script>
+  <script src="js/mousemoveparallax.js"></script>
+  <script src="js/pagenav.js"></script>
+  <script src="js/jquery-type.js"></script>
+  <script src="js/jquery.nicescroll.min.js"></script>
+  <script src="js/particle-alone.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
